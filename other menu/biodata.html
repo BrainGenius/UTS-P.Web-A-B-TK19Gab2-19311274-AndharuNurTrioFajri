@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Biodata
+	</title>
+	<link rel="icon" type="image/png" href="../picture/favicon.png">
+	<link rel="stylesheet" type="text/css" href="../external.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+</head>
+<body>
+	<nav class="hamburgermenu">
+        <section class="listmenu">
+          	<section class="on"></section>
+          	<section id="menu">            
+            	<a href="#" onclick="home()"><i class="home"></i>Home</a>
+            	<a href="#" onclick="about()"><i class="about"></i>About</a>
+            	<a href="#" onclick="biodata()"><i class="biodata"></i>Biodata</a>
+          	</section>
+          	<a href="javascript:void(0);" class="icon" onclick="menu()">
+            <img src="../picture/hamburgermenu.png">            
+          </a>
+        </section>
+    </nav>
+	<section class="gridcontainer">
+		<header class="header">
+			<h1>
+				Biodata
+			</h1>
+		</header>
+		<article class="mainarticle">
+			<h2 style="text-align: center;">
+				Hasil UTS Pemrograman Web
+			</h2>
+			<h4 style="text-align: center;">
+				TK19Gab2<br>
+				Fakultas Teknik dan Ilmu Komputer<br>
+				Sistem Informasi<br><br><br>
+			</h4>
+			<table>
+				<tr>
+					<th></th>
+					<td><img src="../picture/article/profilepicture.jpg"/></td>
+				</tr>
+				<tr>
+					<th>NPM</th>
+					<td>19311274</td>
+				</tr>
+				<tr>
+					<th>Nama</th>
+					<td>Andharu Nur Trio Fajri</td>
+				</tr>
+				<tr>
+					<th>No. Absensi</th>
+					<td>16</td>
+				</tr>
+				<tr>
+					<th>Sosial Media</th>
+					<td><a href="https://instagram.com/andharuntf?igshid=YmMyMTA2M2Y=">@andharuntf</a></td>
+				</tr>
+				<tr>
+					<th>Hobby</th>
+					<td>Codingan</td>
+				</tr>
+			</table>
+		</article>
+		<nav class="sidemenu">
+			<button onclick="home()">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14px" height="14px">
+					<path fill-rule="evenodd" d="M11.03 2.59a1.5 1.5 0 011.94 0l7.5 6.363a1.5 1.5 0 01.53 1.144V19.5a1.5 1.5 0 01-1.5 1.5h-5.75a.75.75 0 01-.75-.75V14h-2v6.25a.75.75 0 01-.75.75H4.5A1.5 1.5 0 013 19.5v-9.403c0-.44.194-.859.53-1.144l7.5-6.363zM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 01.75-.75h3.5a.75.75 0 01.75.75v6.25h5v-9.403L12 3.734z"></path>
+				</svg>
+				Home
+			</button> 
+			<button onclick="about()">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14px" height="14px">
+					<path fill-rule="evenodd" d="M12 16.5a4.5 4.5 0 100-9 4.5 4.5 0 000 9zm0 1.5a6 6 0 100-12 6 6 0 000 12z"></path>
+				</svg>
+				About
+			</button>
+			<button onclick="biodata()">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14px" height="14px">
+					<path fill-rule="evenodd" d="M12 16.5a4.5 4.5 0 100-9 4.5 4.5 0 000 9zm0 1.5a6 6 0 100-12 6 6 0 000 12z"></path>
+				</svg>
+				Biodata
+			</button>
+		</nav>
+		<aside class="sidearticle">
+			<h2>
+				Wahana
+			</h2>
+			<div class="sidecoloumn">
+				<img src="../picture/sidearticle/WahanaAtraksiOctopusKidsFun.jpg" style="border: 1px solid #B79077; display: block; margin: auto; max-width: 60%; max-height: 200px">
+				<h3>
+					Octopus Kids Fun
+				</h3>
+			</div>
+			<div class="sidecoloumn">
+				<img src="../picture/sidearticle/WahanaAtraksiSepedaLayang.jpg" style="border: 1px solid #B79077; display: block; margin: auto; max-width: 60%; max-height: 200px">
+				<h3>
+					Sepeda Layang
+				</h3>
+			</div>
+			<div class="sidecoloumn">
+				<img src="../picture/sidearticle/WahanaAtraksiSigerCrane.jpg" style="border: 1px solid #B79077; display: block; margin: auto; max-width: 60%; max-height: 200px">
+				<h3>
+					Siger Crane
+				</h3>
+			</div>
+		</aside>
+		<footer class="footer">
+			<h1>
+				<span>C</span>
+				<span>o</span>
+				<span>p</span>
+				<span>y</span>
+				<span>r</span>
+				<span>i</span>
+				<span>g</span>
+				<span>h</span>
+				<span>t</span>
+				<span>:</span>
+				<span>Brain</span>
+				<span>_</span>
+				<span>Genius</span>
+			</h1>
+		</footer>
+	</section>
+	<script>
+		function menu()
+		{
+          	let x = document.getElementById("menu");  
+          	if (x.style.display == "block")
+          	{
+          		x.style.display = "none";
+          	} 
+          	else{
+            	x.style.display = "block";
+          	}
+        }
+		function home()
+		{
+			location.href="../home.html";
+		}
+		function about()
+		{
+			location.href="about.html"
+		}
+		function biodata()
+		{
+			location.href="biodata.html"
+		}
+	</script>
+</body>
+</html>
