@@ -2,5 +2,5 @@ Nama			: Andharu Nur Trio Fajri
 NPM			: 19311274
 No. Absen		: 16
 Nama Tempat Wisata	: Slanik Waterpark Lampung
-Link Akses Website	: https://braingenius.github.io/UTS-P.Web-A-B-TK19Gab2-19311274-AndharuNurTrioFajri/
-Link Source Code Website: https://github.com/BrainGenius/UTS-P.Web-A-B-TK19Gab2-19311274-AndharuNurTrioFajri.git
+Link Akses Website	: https://braingenius.github.io/UTS-P.Web-B-TK19Gab2-19311274-AndharuNurTrioFajri/
+Link Source Code Website: https://github.com/BrainGenius/UTS-P.Web-B-TK19Gab2-19311274-AndharuNurTrioFajri.git
